@@ -103,6 +103,7 @@ url = post(text, lexer, key, ttl)
 if usebrowser:
 	if not browser.open_new_tab(url):
 		print(url)
-
+else:
+	print(url)
 EOF
 endfunction
