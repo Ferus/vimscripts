@@ -60,7 +60,7 @@ if !exists("g:pastee_webbrowser")
 	let g:pastee_webbrowser=""
 endif
 
-if !exists("g:pastee_printurl"_
+if !exists("g:pastee_printurl")
 	let g:pastee_printurl=1
 endif
 
