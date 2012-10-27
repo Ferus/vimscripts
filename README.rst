@@ -1,28 +1,36 @@
-# Vimscripts:
+Vimscripts:
+===========
 
-## About:
+About:
+------
 
 A personal collection of scripts I've written to better the Vim editor.
 
-## License:
+License:
+--------
 
-[WTFPL]
+WTFPL_
 
-## Scripts:
+Scripts:
+--------
 
 1. Pastee.vim
 
-## Installing:
+Installing:
+-----------
 
-1. Install [Vundle]
+1. Install Vundle_
 
 2. Add `Bundle 'Ferus/vimscripts'` to your ~/.vimrc
 
-3. Configure
+3. Run `:BundleInstall! Ferus/vimscripts` in vim
 
-4. Enjoy
+4. Configure
 
-### plugins/pastee.vim:
+5. Enjoy
+
+plugins/pastee.vim:
+===================
 
 In normal mode, invoking :Pastee pastes the whole buffer.
 
@@ -33,7 +41,7 @@ The F2 key is binded by default to :Pastee, you can change it or remove it yours
 Requirements:
 
 - Vim >= 7.0 Compiled with Python support
-- [Requests] - Python HTTP Requests for Humans™
+- Requests_ - Python HTTP Requests for Humans™
 
 Configuring: ::
 
@@ -59,6 +67,6 @@ Default Keybinds: ::
 	xmap <silent> <F2> :Pastee<CR>
 
 
-[WTFPL]: http://sam.zoy.org/wtfpl/COPYING
-[Vundle]: https://github.com/gmarik/vundle
-[Requests]: https://github.com/kennethreitz/requests
+.. _WTFPL: http://sam.zoy.org/wtfpl/COPYING
+.. _Vundle: https://github.com/gmarik/vundle
+.. _Requests: https://github.com/kennethreitz/requests
