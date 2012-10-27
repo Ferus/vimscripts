@@ -125,6 +125,6 @@ endfunction
 
 " Register :Pastee as a command
 command! -buffer -range Pastee <line1>,<line2>:call Pastee()
-" bind <F2> to `call Pastee(<text>)` for normal and visual modes
+" bind <F2> to `:Pastee` for normal and visual modes
 nmap <silent> <F2> :1,$Pastee<CR>
 xmap <silent> <F2> :Pastee<CR>
