@@ -30,10 +30,10 @@ In visual mode, invoking :Pastee pastes the current selection.
 
 The F2 key is binded by default to :Pastee, you can change it or remove it yourself :)
 
-Requirements: ::
+Requirements:
 
-	Vim >= 7.0 Compiled with Python support
-	[Requests] - Python HTTP Requests for Humans™
+- Vim >= 7.0 Compiled with Python support
+- [Requests] - Python HTTP Requests for Humans™
 
 Configuring: ::
 
